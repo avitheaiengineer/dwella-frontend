@@ -1,7 +1,7 @@
 // frontend/src/services/listingService.js
 import axios from 'axios';
 
-const API_URL = '/api/listings';
+const API_URL = 'https://dwella-backend.herokuapp.com/api/listings';
 
 export const fetchListings = async () => {
   try {
